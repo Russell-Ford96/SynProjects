@@ -1,0 +1,64 @@
+mongoimport --jsonArray --db farmDB --collection farms --file TestData.json
+
+usedb farmDB
+
+-- A: Display the fields business, category, farm_name for all docs
+
+db.farms.find(
+	{}, 
+	{'business': 1, 'category': 1, 'farm_name': 1}
+).toArray()
+
+-- B: Display business and type, but exclude _id
+
+db.farms.find(
+	{}, 
+	{'business': 1, "location_1.type": 1, '_id': 0}
+).toArray()
+
+-- C: Display documents where 'location_1_city' is 'Litchfield'
+
+db.farms.find(
+	{'location_1_city':'Litchfield'}
+).toArray()
+
+-- D: Display businesses at latitude < -71.990315465
+
+db.farms.find(
+	{'location_1.coordinates.0': {$lt: -71.990315465}}, 
+	{'business': 1, 'location_1.coordinates': 1}
+).toArray()
+
+-- E: Display 3 businesses after skipping 5 businesses
+
+db.farms.find(
+	{},
+	{'business': 1}
+).skip(5).limit(3).toArray()
+
+-- F: Display business, farm_name, farmer_id where farmer_id < 3500
+
+db.farms.find().forEach( 
+	function (x) {
+		x.farmer_id = parseInt(x.farmer_id);
+db.farms.save(x);
+});
+
+db.farms.find(
+	{'farmer_id': {$lt: 3500}},
+	{'business': 1, 'farm_name': 1, 'farmer_id': 1}
+).toArray()
+
+-- G: Display business, farm_name where business starts with 'Field'
+
+db.farms.find(
+	{'business': {$regex: "Field.*"}},
+	{'business': 1, 'farm_name': 1}
+).toArray()
+
+-- H: Display business, farm_name where business has 'Field' anywhere in business name
+
+db.farms.find(
+	{'business': {$regex: ".*Field.*", $options: 'i'}},
+	{'business': 1, 'farm_name': 1}
+).toArray()
