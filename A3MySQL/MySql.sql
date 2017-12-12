@@ -83,7 +83,7 @@ VALUES (null, 'Golden'),
 
 INSERT INTO postcard (pcID, title, description, isColor, condID, eraID)
 VALUES (null, 'New York-1929', 'Depicts the Statue of Liberty', 0, 2, 1),
-	   (null, 'New York-1929', 'Depicts the Statue of Liberty', 0, 5, 1)
+	   (null, 'New York-1929', 'Depicts the Statue of Liberty', 0, 5, 1),
 	   (null, 'Flowers in Spring-1978', 'Depicts a woman running through a field of flowers', 1, 4, 3),
 	   (null, 'Elvis Is Back-1960', 'Depicts Elvis Presley portrait from the album of the same name', 1, 5, 2),
 	   (null, 'Elvis Is Back-1960', 'Depicts Elvis Presley portrait from the album of the same name', 1, 3, 2),
