@@ -1,0 +1,29 @@
+{
+  "name": "apex",
+  "version": "1.0.0",
+  "description": "APEX Financial Webpage",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "angular": "^1.6.7",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.7"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Darren Packer <Darren.D.Packer@gmail.com>",
+  "license": "ISC"
+}

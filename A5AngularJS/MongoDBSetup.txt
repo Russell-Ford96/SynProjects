@@ -1,0 +1,1 @@
+mongoimport --db apex --collection apexproducts --drop --jsonArray --file Products.json

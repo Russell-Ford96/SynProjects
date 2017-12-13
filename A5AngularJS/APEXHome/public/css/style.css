@@ -1,0 +1,99 @@
+
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+	overflow-x: hidden;
+	background-color: rgb(60,60,60);
+}
+
+h1{
+  font-weight: 800;
+  font-size: 6vmin;
+  color: rgb(255,255,255);
+  text-shadow: 5px 3px rgb(0,0,0);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 3vh 1vh;
+  background-color: rgba(60,60,60,0.6);
+  text-align: center;
+  border-radius: 80px;
+}
+
+h2 {	
+	
+}
+
+p {
+	
+}
+
+.row{
+    overflow: hidden; 
+}
+
+[class*="col-"]{
+	margin-top: 0;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.navbar {
+	opacity: 0.9;
+}
+
+#main {
+	margin-top: 50px;
+	padding: 0;
+}
+
+.home-bg {
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-image: url('../assets/img/homebg.jpg');
+  	height: 75vh;
+}
+
+.about-bg {
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-image: url('../assets/img/aboutbg.jpg');
+  	height: 75vh;
+}
+
+.mission-bg {
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-image: url('../assets/img/missionbg.jpg');
+  	height: 75vh;
+}
+
+.purchase-bg {
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-image: url('../assets/img/purchasebg.jpg');
+  	height: 75vh;
+}
+.bg-cont {
+  position: relative;
+  top: 25vh;
+  height: 50vh;
+  padding-top: 10px;
+  margin: auto;
+  width: 50vw;
+}
+
+#footer {
+	margin-bottom: 2px;
+}
+
+.contbox {
+	color: rgb(255,255,255);
+	border-top:solid 1px rgb(80,80,80);
+	border-bottom: solid 1px rgb(40,40,40);
+	border-left:solid 1px rgb(80,80,80);
+	border-right: solid 1px rgb(40,40,40);
+}

@@ -1,0 +1,73 @@
+[
+	{ 
+		"name": "Autopilot",
+		"description": "Our most powerful financial suite at your fingertips. Analyze and optimize your investment strategies with the help of top-of-the-line statistical analysis.",
+		"price": 999.99,
+		"rating": 10,
+		"seller": "APEXAutopilot",
+		"warranty": "5 year"
+	}, {
+		"name": "Autopilot for Developers",
+		"description": "All of the assets for you to fine-tune your own Autopilot. Includes our top of the line financial simulation software and a full extensible and modifiable version of Autopilot.",
+		"price": 1499.99,
+		"rating": 10,
+		"seller": "APEXAutopilot",
+		"warranty": "1 year limited"
+	}, {
+		"name": "APEX Keep",
+		"description": "Our premier accounting software helps keep all your financial records accurate with an extra emphasis on safety and security.",
+		"price": 699.99,
+		"rating": 8,
+		"seller": "APEXBusiness",
+		"warranty": "5 year"
+	}, {
+		"name": "APEX Keep+",
+		"description": "Our premier accounting software helps keep all your financial records accurate with an extra emphasis on safety and security. Comes bundled with one free year of APEXGuardian and APEXPixieBiz",
+		"price": 999.99,
+		"rating": 10,
+		"seller": "APEXBusiness",
+		"warranty": "10 year"
+	}, {
+		"name": "APEX Guardian - 1 Year Subscription",
+		"description": "Keep your networks and information secure with the full suite of our adaptive APEXGuardian tools that can help you identify and fix security issues before it's too late.",
+		"price": 199.99,
+		"rating": 9,
+		"seller": "APEXGuardian",
+		"warranty": "30 day money-back"
+	}, {
+		"name": "Guardian Protex - 1 Year Subscription",
+		"description": "Keep your family's data secure with the most advanced home network security on the market.",
+		"price": 49.99,
+		"rating": 9,
+		"seller": "APEXGuardian",
+		"warranty": "30 day money-back"
+	}, {
+		"name": "Pixie - 1 Year Subscription",
+		"description": "Hi Pixie! Meet the first personal assistant who speaks finance. Pixie can help you manage your finances with a myriad of helpful tools and suggestions to make sure your money is being tracked and used in the best way possible.",
+		"price": 49.99,
+		"rating": 6,
+		"seller": "APEXPixie",
+		"warranty": "30 day money-back"
+	}, {
+		"name": "PixieBiz - 1 Year Subscription",
+		"description": "Hi Pixie! Meet the first personal assistant who speaks finance, now optimized for large-scale business applications. Built to work seamlessly with our entire suite of software.",
+		"price": 199.99,
+		"rating": 7,
+		"seller": "APEXPixie",
+		"warranty": "30 day money-back"
+	}, {
+		"name": "PixieBiz+ - 1 Year Subscription",
+		"description": "Hi Pixie! Meet the first personal assistant who speaks finance. Now your business and employees can all have the power of Pixie in your pocket. This package comes with PixieBiz and 50 keys for Pixie personal.",
+		"price": 999.99,
+		"rating": 10,
+		"seller": "APEXPixie",
+		"warranty": "30 day money-back"
+	}, {
+		"name": "The APEX Suite - 1 Year Subscription",
+		"description": "An all-in-one subscription suite that will help your business soar to new heights. Includes Autopilot, Keep+, Guardian, PixieBiz+ and 100 Pixie keys.",
+		"price": 1999.99,
+		"rating": 10,
+		"seller": "APEX",
+		"warranty": "30 day money-back"
+	}
+]
