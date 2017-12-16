@@ -7,7 +7,7 @@ module.exports = function(app) {
 // server routes ===========================================================
 
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/apex";
+var url = "mongodb://localhost:27017/";
 
 app.get("/apexproducts", function(request, response){
   
@@ -16,9 +16,11 @@ app.get("/apexproducts", function(request, response){
     if (err) throw err;
     else {
       console.log('MongoDB initialized on port 27017');
-      var collection = database.collection("apexproducts");
+      var database = client.db("apex");
+        var collection = database.collection("apexproducts");
+
       collection.find().toArray((err, products)=>{
-        response.send({"list":products});
+        response.send(products);
       });
     }
   });
