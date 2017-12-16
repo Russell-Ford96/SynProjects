@@ -97,3 +97,7 @@ p {
 	border-left:solid 1px rgb(80,80,80);
 	border-right: solid 1px rgb(40,40,40);
 }
+
+.product {
+  text-align: center;
+}
